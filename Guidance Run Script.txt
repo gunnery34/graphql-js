@@ -1,0 +1,38 @@
+Install graphql
+npm install graphql
+
+Install mysql
+npm install mysql
+
+install cors
+npm install mysql
+
+Run in Browser
+http://localhost:4000/graphql
+
+example :
+
+query{
+  getUsers{
+    id,
+    name,
+    email
+  }
+}
+
+query{
+  getUserInfo(id:1){
+    id,
+    name,
+    email
+  }
+}
+
+query{
+ getProducts(limit:5) {
+    id,
+    slug,
+    name,
+    price
+  }
+}

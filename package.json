@@ -1,0 +1,21 @@
+{
+  "name": "graphql-app",
+  "version": "1.0.0",
+  "description": "User consolidation apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.8.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.7.0",
+    "mongodb": "^3.3.0-beta2",
+    "mysql": "^2.18.1"
+  }
+}
